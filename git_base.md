@@ -40,7 +40,11 @@ git clone [url]
 
 ## 查看信息
 - 显示变更信息
-  `git status`
+
+
+```
+  git status 或者 git status -sb(只显示两行内容，红色表示在工作区，绿色表示在暂存区)
+```
 
 - 显示当前分支的历史版本
 ```
