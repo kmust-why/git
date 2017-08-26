@@ -2,9 +2,11 @@
 ## 设置 Git 参数 ##
 
 - 显示当前的 Git 配置
+
   `git config --list`
 
 - 设置提交仓库时的用户名信息
+
   `git config --global user.name "王海云"`
 
 - 设置提交仓库时的邮箱信息
