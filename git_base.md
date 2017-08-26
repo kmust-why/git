@@ -25,24 +25,28 @@ git clone [url]
 ```
 ## 添加删除文件
 - 添加指定文件到暂存区
+
   `git add [file1] [file2]`
 
 - 删除工作区文件，并且将这次删除放入暂存区
+
   `git rm [file1] [file2]`
 
 - 改名文件，并且将这个改名放入暂存区
+
   `git mv [file-origin] [file-renamed]`
 
 ## 代码提交
 - 提交暂存区到仓库
+
   `git commit –m [message]`
 
 - 直接从工作区提交到仓库，前提该文件已经有仓库中的历史版本
+
   `git commit –a –m [message]  或者 git commit –am [message]`
 
 ## 查看信息
 - 显示变更信息
-
 
 ```
   git status 或者 git status -sb(只显示两行内容，红色表示在工作区，绿色表示在暂存区)
