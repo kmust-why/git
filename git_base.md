@@ -15,13 +15,13 @@
 
 ## 新建代码仓库 #
 - 在当前目录新建一个 Git 代码库
+
   `git init`
 
 - 下载一个项目和它的整个代码历史
 ```
 url 格式: https://github.com/[userName]/reposName
 git clone [url]
-
 ```
 ## 添加删除文件
 - 添加指定文件到暂存区
