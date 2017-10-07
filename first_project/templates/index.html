@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>主页</h1>
+    {% if context %}
+        <a href="#">{{ context.username }}</a>
+        <a href="#">注销</a>
+    {% else %}
+        <a href="#">登陆</a>
+        <a href="#">注册</a>
+    {% endif %}
+    <hr>
+    {% for k,v in context.items() %}
+        <p>{{ k }}:{{ v }}</p>
+    {% endfor %}
+
+</body>
+</html>
