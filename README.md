@@ -141,3 +141,26 @@ git是一款开源免费的分布式的代码管理软件，这是对git最简�
 
 此时你就要看，到底是要用当前分支的代码还是要用合并的分支的代码还是要兼容两者，修改完了后把`<<<`和`===`删掉，git就视为已经解决了冲突。
 > 以上内容整理自黄勇
+
+
+
+
+#!/usr/bin/env python
+# encoding: utf-8
+
+#version: 1.0
+#author: wanghaiyun
+#contact: 1563713769@qq.com
+#file: ${NAME}.py
+#time: ${DATE} ${TIME}
+
+
+
+
+
+
+
+
+
+
+
