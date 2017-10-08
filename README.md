@@ -156,6 +156,12 @@ git是一款开源免费的分布式的代码管理软件，这是对git最简�
 
 
 
+raise errorclass, errorvalue
+sqlalchemy.exc.IntegrityError: (_mysql_exceptions.IntegrityError) (1215, 'Cannot add foreign key constraint') [SQL: u'\nCREATE TABLE questions (\n\tid INTEGER NOT NULL AUTO_INCREMENT, \n\ttitle VARCHAR(100) NOT NULL, \n\tcontent TEXT NOT NULL, \n\tcreate_time DATETIME, \n\tauthor_id VARCHAR(100), \n\tPRIMARY KEY (id), \n\tFOREIGN KEY(author_id) REFERENCES users (id)\n)\n\n']
+
+
+
+
 
 
 
